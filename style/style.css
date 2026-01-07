@@ -61,12 +61,11 @@
     /* background-color: #16D887; */
     width: 100%;
     max-width: 1600px;
-    height: 154px;
     margin: 0 auto;
     padding:131px 322px 0 206px;
 }
 #fail .container2 {
-    border: 1px solid #000000;
+    /* border: 1px solid #000000; */
     width: 100%;
     max-width: 1072px;
     text-align: left;
@@ -90,7 +89,7 @@
     font-weight: bold;
     margin-bottom: 24px;
 }
-#fail .container2 .hero-content p, #fail {
+#fail .container2 .hero-content p {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 16px;
@@ -102,4 +101,79 @@
     line-height: 26px;
     margin-bottom: 8px;
     color: #444343;
+}
+#plan-positive{
+    /* border: 5px solid #F15B22; */
+    padding: 130px 230px;
+}
+#plan-positive .container3 {
+    /* border: 3px solid #000000; */
+    width: 100%;
+    max-width: 1140px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+#plan-positive .container3 .plan-card-container {
+    /* border: 1px solid #000000; */
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 86px;
+}
+#plan-positive .container3 .plan-card-container h2{
+    /* border: 1px solid #000000; */
+    width: 100%;
+    max-width: 1141px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    gap: 86px;
+}
+#plan-positive .container3 .plan-card {
+    /* border: 1px solid #000000; */
+    width: 100%;
+    max-width: 218px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+#plan-positive .container3 .positive{
+    border: 1px solid #000000;
+    width: 100%;
+    max-width: 1141px;
+    margin: 0 auto;
+    padding: 59px 617px 59px 64px;
+    border-radius: 8px;
+    background:url("../images/gradient3.png"), url("../images/watch.png");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-right: 64px;
+    margin-top: 59px;
+}
+#plan-positive .container3 .positive h3 {
+    font-size: 40px;
+    font-weight:bold;
+    color: #ffffff;
+    text-align: left;
+}
+#plan-positive .container3 .positive button {
+    border: none;
+    font-size: 20px;
+    font-weight: semi-bold;
+    border-radius: 5px;
+    max-width: 160px;
+    padding: 21px 36px 20px;
+    background-color: #ffffff;
+    text-align: left;
+    color: #F15B22;
+    cursor: pointer;
 }
